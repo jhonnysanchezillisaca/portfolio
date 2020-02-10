@@ -18,7 +18,6 @@
 - Amazing illustrations by [Undraw.co](https://undraw.co)
 - Tablet & mobile friendly
 - Continuous deployment with [Netlify](https://netlify.com)
-- A contact form protected by Google Recaptcha
 - Can be deployed with one click
 - Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
@@ -59,16 +58,6 @@ GITHUB_TOKEN=xxxxxxxxxx
 ```
 
 > [Get your GitHub access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line#creating-a-token)
-
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
-
-When deploying on Netlify, you will have to set the private key as well
-
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
-
-SITE_RECAPTCHA_SECRET=xxxxx
-```
 
 I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
 
